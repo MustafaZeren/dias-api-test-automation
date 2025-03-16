@@ -14,7 +14,7 @@ public class  TestsAPI {
     private static String token;
 
     @BeforeClass
-    public static void setup() {  // STATIC olmalı!
+    public static void setup() {
         healthCheck();
         authenticate();
     }
